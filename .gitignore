@@ -172,3 +172,48 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env/
+venv/
+env/
+.venv/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Jupyter notebooks (if you explore with them later)
+.ipynb_checkpoints/
+
+# MacOS files
+.DS_Store
+
+# System logs
+*.log
+
+# VS Code settings (optional)
+.vscode/
+
+# OS junk
+Thumbs.db
+desktop.ini
+
+# Pip dependency files
+pip-log.txt
+
+# AWS CLI config cache
+.aws-sam/
+
+backtest_results/
+logs/

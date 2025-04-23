@@ -1,0 +1,11 @@
+{
+    "strategy": "volume_breakout",
+    "start_date": "2023-01-01",
+    "end_date": "2023-12-31",
+    "volume_multiplier": 2.0,
+    "lookback_days": 5,
+    "profit_pct": 0.05,
+    "loss_pct": 0.03,
+    "max_tickers": 5
+  }
+  
