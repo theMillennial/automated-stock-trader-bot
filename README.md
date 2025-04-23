@@ -10,7 +10,7 @@ A modular, Python-based trading bot framework that supports:
 - ✅ Backtesting engine with PnL tracking
 
 -----------------------------
-
+```
 🧱 Project Structure
 
 .
@@ -21,16 +21,16 @@ A modular, Python-based trading bot framework that supports:
 ├── configs/             # JSON configs for strategies
 ├── logs/                # SQLite trade logs (ignored in Git)
 ├── backtest_results/    # Backtest output CSVs (ignored in Git)
-
+```
 -----------------------------
 
 ⚙️ Setup
 
 # Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 # Setup environment variables (Alpaca, Telegram)
-cp .env.example .env
+`cp .env.example .env`
 
 -----------------------------
 
@@ -45,13 +45,13 @@ cp .env.example .env
 🚀 Running Jobs
 
 1. Run Buy Logic:
-   python -m jobs.run_buy
+   `python -m jobs.run_buy`
 
 2. Run Sell Logic:
-   python -m jobs.run_exit
+   `python -m jobs.run_exit`
 
 3. Run Backtest:
-   python -m jobs.backtester --config configs/high_volume_breakout.json
+   `python -m jobs.backtester --config configs/high_volume_breakout.json`
 
 -----------------------------
 
